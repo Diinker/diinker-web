@@ -1,1 +1,42 @@
+@font-face {
+  font-family: 'Nature-Bold';
+  src: url('/assets/fonts/Nature-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nature-Regular';
+  src: url('/assets/fonts/Nature-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nature-Light';
+  src: url('/assets/fonts/Nature-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 @import "tailwindcss";
+
+/* 1. FORCE BROWSER RESET (Guarantees no margins/padding) */
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+
+  overflow-x: hidden;
+}
+
+/* 2. Sizing the root React mounting point */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
