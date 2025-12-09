@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import PromoSection from "./components/PromoSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* MAIN CONTENT */}
       <HeroSection />
       <PromoSection />
+      <Footer />
     </div>
   )
 }
