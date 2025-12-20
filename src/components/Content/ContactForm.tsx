@@ -16,7 +16,7 @@ export default function ContactForm() {
           <input type="text" placeholder="Message..." className="bg-[#ffffff10] w-full px-4 py-5 rounded-xl"/>
         </div>
       </div>
-      <button onClick={submitRequest} className="bg-white w-full text-black font-nature rounded-xl p-3 mt-6 hover:text-white hover:bg-[#00ff95] transition duration-1000">
+      <button onClick={submitRequest} className="bg-white w-full text-black font-nature rounded-xl p-3 mt-6 hover:text-white hover:bg-[#000000] transition duration-300">
         <p>Submit</p>
       </button>
     </div>
