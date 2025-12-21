@@ -3,7 +3,7 @@ export default function ConnectAndCompete() {
     <div className="text-white flex flex-col items-center md:flex-row mt-30 justify-center md:justify-around">
       <div className="text-center">
         <h1 className="text-4xl md:text-6xl font-nature pb-2">
-          Connect & Compete
+          Step 3 - Track
         </h1>
         <p className="text-xl flex flex-col items-center md:flex-row font-nature-light py-5 px-10">
           Diinker isn't just a tool; it's your entry into a global network of

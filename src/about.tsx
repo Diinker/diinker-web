@@ -1,6 +1,6 @@
 import ConnectAndCompete from "./components/Content/ConnectCompete";
 import CreationReason from "./components/Content/CreationReason";
-import StatTracking from "./components/Content/StatTracking";
+import StatTracking from "./components/Content/Step2";
 import Footer from "./components/Footer";
 import AboutHero from "./components/Heros/AboutHero";
 // import Footer from "./components/Footer";
