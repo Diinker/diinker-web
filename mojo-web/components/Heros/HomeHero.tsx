@@ -1,8 +1,10 @@
 export default function HomeHero() {
   return (
     <div className="text-white flex flex-col items-center gap-5">
-      <h1 className="text-7xl font-beyonders">Mojo</h1>
-      <p className="text-xl font-coolvetica">Turn small daily wins into massive momentum.</p>
+      <p className="text-7xl font-nature text-center">Turn Small Daily Wins into <br /><span className="text-transparent [-webkit-text-stroke:1px_white]">
+  Massive Momentum
+</span></p>
+      <p className="font-nature-light text-2xl">A simple way to visualize your daily progress and turn consistent effort into life-changing results.</p>
     </div>
   )
 }
